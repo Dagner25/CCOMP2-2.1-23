@@ -3,7 +3,9 @@
 using namespace std;
 
 int main (){
-    cout << "Mi primer codigo en github :)"
+    cout << "Mi primer codigo en github :)" << endl; 
 
-    return 0;
+    cout << "Mi segunda linea de codigo en github :)(:" << endl;
+
+    return 0 ;
 }
