@@ -14,6 +14,15 @@ void deposit(int depositAmount) {
       balance = balance + depositAmount;
    }
 }
+void withdraw(int withdrawAmount) {
+    if(withdrawAmount > balance) {
+        std::cout << "\n\nWithdrawal amount exceeded account balance."
+                << std::endl;
+    } else{
+        balance = balance - withdrawAmount;
+    }
+
+}
 
 int getBalance() const {
 return balance;
