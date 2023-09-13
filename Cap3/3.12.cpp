@@ -18,7 +18,7 @@ int main() {
     cin >> day;
     actual.setDay(day);
 
-    cout << "Anio: ";
+    cout << "Año: ";
     cin >> year;
     actual.setYear(year);
 
